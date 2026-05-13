@@ -1,0 +1,80 @@
+.square-loyalty-events-table td code,
+.square-loyalty-candidates td code {
+  font-size: 12px;
+}
+
+.square-loyalty-candidates {
+  max-width: 840px;
+}
+
+.credits-wrap .credits-manage-customer-meta code {
+  word-break: break-all;
+}
+
+.credits-wrap .credits-status-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.credits-wrap .credits-status-active {
+  color: #0f5132;
+  background: #d1e7dd;
+}
+
+.credits-wrap .credits-status-inactive {
+  color: #842029;
+  background: #f8d7da;
+}
+
+.credits-wrap .fa-phone-slash {
+  --fa-primary-color: #b42318;
+  --fa-secondary-color: #f3ada8;
+}
+
+.credits-wrap .square-loyalty-missing-phone-metric {
+  border-color: #f0b4ae;
+  background: #fffafa;
+}
+
+.credits-wrap .square-loyalty-missing-phone-panel {
+  border-color: #f0b4ae;
+}
+
+.credits-wrap .square-loyalty-missing-phone-panel h2 {
+  color: #7a271a;
+}
+
+.credits-wrap .square-loyalty-missing-phone-table {
+  margin-top: 12px;
+}
+
+.credits-wrap .square-loyalty-missing-phone-table td,
+.credits-wrap .square-loyalty-missing-phone-table th {
+  vertical-align: middle;
+}
+
+.credits-wrap .square-loyalty-missing-phone-table td code {
+  font-size: 12px;
+  word-break: break-all;
+}
+
+.credits-wrap .square-loyalty-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: center;
+  margin: 10px 0 0;
+}
+
+.credits-wrap .square-loyalty-profile-links a {
+  font-weight: 600;
+}
+
+.credits-wrap .square-loyalty-profile-links span[aria-hidden="true"] {
+  color: #8c8f94;
+}

@@ -1,0 +1,26 @@
+#adminmenu .toplevel_page_square-loyalty-points div.wp-menu-image.svg {
+  background-image: none !important;
+}
+
+#adminmenu .toplevel_page_square-loyalty-points div.wp-menu-image img {
+  display: none;
+}
+
+#adminmenu .toplevel_page_square-loyalty-points div.wp-menu-image:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 7px auto 0;
+  padding: 0;
+  opacity: 1;
+  background-color: currentColor;
+  -webkit-mask-image: url("../icon.svg");
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-image: url("../icon.svg");
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
