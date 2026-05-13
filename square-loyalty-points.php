@@ -3,7 +3,7 @@
  * Plugin Name: Loyalty Squirrel
  * Plugin URI: https://example.com/
  * Description: Assign and review Square Loyalty points for WooCommerce customers from WordPress.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Alex Burgess
  * Requires Plugins: woocommerce
  * License: GPLv2 or later
@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('SQUARE_LOYALTY_POINTS_VERSION', '1.0.1');
+define('SQUARE_LOYALTY_POINTS_VERSION', '1.0.2');
 define('SQUARE_LOYALTY_POINTS_DB_VERSION', '1');
 define('SQUARE_LOYALTY_POINTS_PLUGIN_FILE', __FILE__);
 define('SQUARE_LOYALTY_POINTS_PLUGIN_DIR', plugin_dir_path(__FILE__));
