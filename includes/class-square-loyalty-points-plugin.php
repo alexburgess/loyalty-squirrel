@@ -285,7 +285,7 @@ class Square_Loyalty_Points_Plugin {
             'manage_options',
             'square-loyalty-points',
             array($this, 'render_admin_page'),
-            SQUARE_LOYALTY_POINTS_PLUGIN_URL . 'assets/icon.svg',
+            SQUARE_LOYALTY_POINTS_PLUGIN_URL . 'assets/logo.svg',
             57
         );
 
