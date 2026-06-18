@@ -248,7 +248,7 @@ class Square_Loyalty_Points_Plugin {
 
         $balance = isset($account['balance']) ? (int) $account['balance'] : 0;
         printf(
-            '<p><strong>%s:</strong> %s</p>',
+			'<p><strong>%s</strong> %s</p>',
             esc_html(sprintf(__('Available %s', 'square-loyalty-points'), strtolower($this->get_label_plural()))),
             esc_html($this->format_points($balance))
         );
@@ -258,9 +258,11 @@ class Square_Loyalty_Points_Plugin {
             echo '<p class="square-loyalty-account-description">' . nl2br(esc_html($account_description)) . '</p>';
         }
 
-        echo '<h3>' . esc_html__('History', 'square-loyalty-points') . '</h3>';
+        echo '<details class="square-loyalty-history-accordion">';
+        echo '<summary>' . esc_html__('History', 'square-loyalty-points') . '</summary>';
         $events = $this->get_events_for_loyalty_account(isset($account['id']) ? (string) $account['id'] : '', 20);
         $this->render_square_events_table($events, false, $account);
+        echo '</details>';
     }
 
     public function enqueue_frontend_assets() {
